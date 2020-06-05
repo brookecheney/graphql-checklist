@@ -80,7 +80,7 @@ function App() {
 
   }
   async function handleDeleteTodo({ id }) {
-    const isConfirmed = window.confirm('do you want to delete this todo?')
+    const isConfirmed = window.confirm('Do you want to delete this todo?')
     if (isConfirmed) {
    const data = await deleteTodo({ 
      variables: { id },
@@ -102,7 +102,7 @@ function App() {
  return  <div className="vh-100 code
  flex flex-column items-center
  bg-purple white pa4 fl-1">
-   <h1 className="f2-1">GraphQL to-do list
+   <h1 className="f2-1">GraphQL to-do list ✅
    <span role="img"
    aria-label="Checkmark"></span>
    
